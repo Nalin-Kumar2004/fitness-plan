@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fat Loss Plan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f7ff;
+        }
+        .page {
+            display: none;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin: 20px auto;
+            max-width: 800px;
+        }
+        .active-page {
+            display: block;
+        }
+        button {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+        }
+        .nav-buttons {
+            text-align: center;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        td, th {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-buttons">
+        <button onclick="showPage('page1')">Daily Plan</button>
+        <button onclick="showPage('page2')">Exercise Guide</button>
+    </div>
+
+    <!-- PAGE 1: DAILY PLAN -->
+    <div id="page1" class="page active-page">
+        <h1>Simple Daily Fat Loss Plan</h1>
+        <p><em>(For Busy Students in Jharkhand, India)</em></p>
+        <p><strong>Goal:</strong> Lose 6 kg this summer, retain muscle, and reduce belly fat.</p>
+
+        <h2>1. Morning Yoga (Empty Stomach – 6:30 AM)</h2>
+        <p><strong>Total Time:</strong> 20–25 minutes</p>
+        <h3>Routine:</h3>
+        <ul>
+            <li><strong>Surya Namaskar (Sun Salutations):</strong><br>
+                - <strong>How Many?</strong> 5 rounds (1 round = 12 steps).<br>
+                - <strong>Time:</strong> 10 minutes.</li>
+            <li><strong>Core Poses:</strong>
+                <ol>
+                    <li><strong>Boat Pose (Navasana):</strong><br>
+                        - Sit, lift legs, balance on hips, arms forward.<br>
+                        - <strong>Hold 20 seconds → Rest 10 seconds → Repeat 3 times.</strong></li>
+                    <li><strong>Plank Pose:</strong><br>
+                        - Hold your body straight like a table.<br>
+                        - <strong>Hold 30 seconds → Rest 10 seconds → Repeat 3 times.</strong></li>
+                    <li><strong>Twisting Pose (Ardha Matsyendrasana):</strong><br>
+                        - Sit, twist spine to one side.<br>
+                        - <strong>Hold 15 seconds per side → Repeat 2 times each side.</strong></li>
+                </ol>
+            </li>
+        </ul>
+
+        <h2>2. Evening Bodyweight Workout (8:00 PM)</h2>
+        <p><strong>Total Time:</strong> 20–25 minutes<br>
+        <strong>Routine (5 Days/Week):</strong></p>
+        <ul>
+            <li><strong>Warm-Up (2 minutes):</strong><br>
+                - Spot jogging (run in place) or jumping jacks.</li>
+            <li><strong>Exercises:</strong>
+                <ol>
+                    <li><strong>Push-Ups:</strong><br>
+                        - Do <strong>10 push-ups</strong> → Rest 20 seconds → Repeat <strong>3 times</strong> (Total = 30 push-ups).</li>
+                    <li><strong>Squats:</strong><br>
+                        - Do <strong>15 squats</strong> → Rest 20 seconds → Repeat <strong>3 times</strong> (Total = 45 squats).</li>
+                    <li><strong>Plank Shoulder Taps:</strong><br>
+                        - In plank position, tap left shoulder with right hand, then right shoulder with left hand.<br>
+                        - <strong>10 taps per side</strong> → Rest 20 seconds → Repeat <strong>2 times</strong>.</li>
+                    <li><strong>Mountain Climbers:</strong><br>
+                        - Run knees toward chest while in plank.<br>
+                        - <strong>30 seconds fast</strong> → Rest 20 seconds → Repeat <strong>2 times</strong>.</li>
+                </ol>
+            </li>
+        </ul>
+
+        <h2>Key Terms Simplified</h2>
+        <ul>
+            <li><strong>Reps (Repetitions):</strong> How many times you do an exercise <strong>in a row</strong> (e.g., 10 push-ups).</li>
+            <li><strong>Sets:</strong> Groups of reps with rest in between (e.g., 3 sets of 10 push-ups).</li>
+            <li><strong>Hold Time:</strong> How long you stay in a yoga pose (e.g., Boat Pose for 20 seconds).</li>
+        </ul>
+
+        <h2>Food & Lifestyle Tips</h2>
+        <ol>
+            <li><strong>Eat Protein:</strong> Paneer, eggs, dal, or chicken in meals.</li>
+            <li><strong>Timing:</strong><br>
+                - Breakfast by 10 AM (after yoga).<br>
+                - Dinner by 8 PM (after evening workout).</li>
+            <li><strong>Avoid:</strong> Sugar, maida (refined flour), fried snacks.</li>
+            <li><strong>Hydrate:</strong> 3–4 liters of water daily.</li>
+        </ol>
+
+        <h2>Sample Daily Schedule</h2>
+        <table>
+            <tr><th>Time</th><th>Activity</th></tr>
+            <tr><td><strong>6:30 AM</strong></td><td>Wake up → Drink warm water.</td></tr>
+            <tr><td><strong>6:45 AM</strong></td><td>Morning Yoga (20–25 mins).</td></tr>
+            <tr><td><strong>10:00 AM</strong></td><td>Breakfast (e.g., eggs + roti + veggies).</td></tr>
+            <tr><td><strong>8:00 PM</strong></td><td>Evening Bodyweight Workout (20 mins).</td></tr>
+            <tr><td><strong>8:30 PM</strong></td><td>Dinner (e.g., dal + sabzi + 1 roti).</td></tr>
+        </table>
+
+        <h2>Progress Tracking</h2>
+        <ul>
+            <li><strong>Weekly:</strong> Check weight every Sunday morning.</li>
+            <li><strong>Measure Belly:</strong> Use a tape to track waist size.</li>
+        </ul>
+        <p><strong>Stay Consistent:</strong> Stick to this plan for <strong>6–8 weeks</strong> to see results. Adjust reps/sets if exercises feel too easy/hard.</p>
+    </div>
+
+    <!-- PAGE 2: EXERCISE GUIDE -->
+    <div id="page2" class="page">
+        <h1>Exercise & Yoga Instructions</h1>
+        <p>Absolutely! I’ll break down <strong>every exercise and yoga pose</strong> with step-by-step instructions, common mistakes, and safety tips. Take your time to read and practice each movement carefully. Let’s start!</p>
+
+        <h2>Morning Yoga Routine (Empty Stomach)</h2>
+        <p><em>(Focus: Core strength, flexibility, fat burn)</em></p>
+
+        <h3>1. Surya Namaskar (Sun Salutation)</h3>
+        <p><strong>Steps (1 Round = 12 Steps):</strong></p>
+        <ol>
+            <li><strong>Pranamasana (Prayer Pose):</strong> Stand straight, hands in prayer position.</li>
+            <li><strong>Hasta Uttanasana (Raised Arms Pose):</strong> Inhale, arch back, arms overhead.</li>
+            <li><strong>Uttanasana (Forward Fold):</strong> Exhale, bend forward, touch toes.</li>
+            <li><strong>Ashwa Sanchalanasana (Lunge):</strong> Inhale, step right leg back, left knee bent.</li>
+            <li><strong>Plank Pose:</strong> Hold body straight (like a push-up position).</li>
+            <li><strong>Ashtanga Namaskar (Eight-Limbed Pose):</strong> Lower knees, chest, and chin to floor.</li>
+            <li><strong>Bhujangasana (Cobra Pose):</strong> Inhale, lift chest, keep elbows slightly bent.</li>
+            <li><strong>Adho Mukha Svanasana (Downward Dog):</strong> Exhale, lift hips, form an inverted “V.”</li>
+            <li><strong>Ashwa Sanchalanasana (Lunge):</strong> Inhale, step right foot forward.</li>
+            <li><strong>Uttanasana (Forward Fold):</strong> Exhale, bring left foot forward, bend down.</li>
+            <li><strong>Hasta Uttanasana (Raised Arms Pose):</strong> Inhale, rise up, arch back.</li>
+            <li><strong>Pranamasana (Prayer Pose):</strong> Exhale, return to starting position.</li>
+        </ol>
+        <p><strong>Common Mistakes to Avoid:</strong></p>
+        <ul>
+            <li>Rushing through poses → <strong>Focus on slow, deep breathing.</strong></li>
+            <li>Arching lower back too much in Cobra Pose → <strong>Keep elbows slightly bent, shoulders relaxed.</strong></li>
+            <li>Letting hips sag in Plank → <strong>Engage core and glutes to keep body straight.</strong></li>
+        </ul>
+
+        <h3>2. Boat Pose (Navasana)</h3>
+        <p><strong>How to Do It:</strong></p>
+        <ol>
+            <li>Sit on the floor, knees bent, feet flat.</li>
+            <li>Lean back slightly, lift feet off the floor (knees bent at first).</li>
+            <li>Straighten legs to form a “V” shape (if possible).</li>
+            <li>Extend arms forward, parallel to the floor.</li>
+            <li>Hold for 20 seconds (beginner) → 60 seconds (advanced).</li>
+        </ol>
+        <p><strong>Common Mistakes:</strong></p>
+        <ul>
+            <li>Rounding the back → <strong>Keep spine straight, chest lifted.</strong></li>
+            <li>Holding breath → <strong>Breathe deeply.</strong></li>
+        </ul>
+
+        <h3>3. Plank Pose (Phalakasana)</h3>
+        <p><strong>How to Do It:</strong></p>
+        <ol>
+            <li>Start on all fours, wrists under shoulders.</li>
+            <li>Step feet back, body straight from head to heels.</li>
+            <li>Engage core, glutes, and thighs.</li>
+            <li>Hold for 30 seconds (beginner) → 2 minutes (advanced).</li>
+        </ol>
+        <p><strong>Common Mistakes:</strong></p>
+        <ul>
+            <li>Sagging hips → <strong>Squeeze glutes and core.</strong></li>
+            <li>Looking up → <strong>Neutral neck (gaze at the floor).</strong></li>
+        </ul>
+
+        <h3>4. Cobra Pose (Bhujangasana)</h3>
+        <p><strong>How to Do It:</strong></p>
+        <ol>
+            <li>Lie on your stomach, palms under shoulders.</li>
+            <li>Press palms down, lift chest off the floor (keep hips grounded).</li>
+            <li>Keep elbows slightly bent, shoulders away from ears.</li>
+            <li>Hold for 15–30 seconds.</li>
+        </ol>
+        <p><strong>Common Mistakes:</strong></p>
+        <ul>
+            <li>Overarching the neck → <strong>Keep gaze forward, not upward.</strong></li>
+            <li>Using only arms → <strong>Use back muscles to lift.</strong></li>
+        </ul>
+
+        <h3>5. Seated Twist (Ardha Matsyendrasana)</h3>
+        <p><strong>How to Do It:</strong></p>
+        <ol>
+            <li>Sit with legs straight.</li>
+            <li>Bend right knee, place right foot outside left thigh.</li>
+            <li>Twist torso to the right, left elbow outside right knee.</li>
+            <li>Hold for 15–30 seconds per side.</li>
+        </ol>
+        <p><strong>Common Mistakes:</strong></p>
+        <ul>
+            <li>Forcing the twist → <strong>Twist from the base of the spine, not shoulders.</strong></li>
+            <li>Collapsing chest → <strong>Keep spine tall.</strong></li>
+        </ul>
+
+        <h2>Evening Bodyweight Workout</h2>
+        <p><em>(Focus: Muscle retention, fat burn)</em></p>
+
+        <h3>1. Push-Ups</h3>
+        <p><strong>How to Do It:</strong></p>
+        <ol>
+            <li>Start in plank position (hands under shoulders).</li>
+            <li>Lower chest toward the floor, elbows at 45° angle.</li>
+            <li>Push back up to plank.</li>
+        </ol>
+        <p><strong>Common Mistakes:</strong></p>
+        <ul>
+            <li>Flaring elbows out → <strong>Keep elbows close to ribs.</strong></li>
+            <li>Dropping hips → <strong>Engage core and glutes.</strong></li>
+        </ul>
+        <p><strong>Modification:</strong></p>
+        <ul>
+            <li><strong>Knee Push-Ups:</strong> Do the same motion with knees on the floor.</li>
+        </ul>
+
+        <h3>2. Squats</h3>
+        <p><strong>How to Do It:</strong></p>
+        <ol>
+            <li>Stand with feet shoulder-width apart.</li>
+            <li>Push hips back, bend knees, lower into a squat (like sitting on a chair).</li>
+            <li>Keep chest up, knees behind toes.</li>
+            <li>Push through heels to stand up.</li>
+        </ol>
+        <p><strong>Common Mistakes:</strong></p>
+        <ul>
+            <li>Knees caving in → <strong>Push knees outward.</strong></li>
+            <li>Rounding back → <strong>Keep spine neutral.</strong></li>
+        </ul>
+
+        <h3>3. Plank Shoulder Taps</h3>
+        <p><strong>How to Do It:</strong></p>
+        <ol>
+            <li>Start in plank position.</li>
+            <li>Tap left shoulder with right hand, then right shoulder with left hand.</li>
+            <li>Keep hips stable (avoid rocking side to side).</li>
+        </ol>
+        <p><strong>Common Mistakes:</strong></p>
+        <ul>
+            <li>Shifting weight → <strong>Move slowly, engage core.</strong></li>
+        </ul>
+
+        <h3>4. Mountain Climbers</h3>
+        <p><strong>How to Do It:</strong></p>
+        <ol>
+            <li>Start in plank position.</li>
+            <li>Drive right knee toward chest, then switch legs quickly.</li>
+            <li>Keep hips low and core tight.</li>
+        </ol>
+        <p><strong>Common Mistakes:</strong></p>
+        <ul>
+            <li>Lifting hips → <strong>Imagine a glass of water on your lower back—don’t spill it!</strong></li>
+        </ul>
+
+        <h2>General Safety Tips</h2>
+        <ol>
+            <li><strong>Warm-Up:</strong> Always do 2–3 minutes of light jogging or arm circles.</li>
+            <li><strong>Form Over Speed:</strong> Move slowly and controlled.</li>
+            <li><strong>Stop If Painful:</strong> Sharp pain = STOP. Mild muscle burn is normal.</li>
+            <li><strong>Breathe:</strong> Exhale during effort (e.g., pushing up in a push-up), inhale during relaxation.</li>
+        </ol>
+
+        <h2>Need Visuals?</h2>
+        <p>Search YouTube for:</p>
+        <ul>
+            <li>“Surya Namaskar for beginners”</li>
+            <li>“Perfect push-up form”</li>
+            <li>“How to do squats correctly”</li>
+        </ul>
+
+        <h2>Final Advice</h2>
+        <ul>
+            <li><strong>Start Slow:</strong> Master form first, then increase reps/sets.</li>
+            <li><strong>Rest 1 Day/Week:</strong> Let muscles recover.</li>
+            <li><strong>Pair with Diet:</strong> Avoid sugar, maida, and fried foods (stick to home-cooked meals like dal-chawal, sabzi-roti).</li>
+        </ul>
+        <p>You’ve got this! 💪</p>
+    </div>
+
+    <script>
+        function showPage(pageId) {
+            document.querySelectorAll('.page').forEach(page => {
+                page.classList.remove('active-page');
+            });
+            document.getElementById(pageId).classList.add('active-page');
+        }
+    </script>
+</body>
+</html>
